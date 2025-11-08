@@ -1,0 +1,12 @@
+{
+  "name": "camp",
+  "version": "1.0.0",
+  "description": "Camp website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
