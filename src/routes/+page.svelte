@@ -69,17 +69,18 @@
             {/if}
             <a href="https://forms.hackclub.com/camprsvp" class="rsvp-btn" target="_blank" rel="noopener">RSVP</a>
             <a href="/stats" class="stats-link">View live stats →</a>
-        <div style="position: absolute; top: 80px; left: 30px; z-index: 1;">
-            <a href="https://hackclub.enterprise.slack.com/archives/C09LYU1S23Y" class="rsvp-btn" target="_blank" rel="noopener">#Rooted Slack Channel</a>
-            <a href="/about#learn-more" class="about-link">Take a look at the FAQ for info on how to join Slack!</a>
         </div>
-        </div>
-        <div style="position: absolute; top: 30px; right: 30px; z-index: 1;">
+        
+        <nav class="nav-buttons">
             <a href="/about" class="info-btn">What is this?</a>
-            
-        </div>
-        <div style="position: absolute; top: 100px; right: 30px; z-index: 1;">
-            <a href="/orgs" class="info-btn">Meet the Orgs!</a>
-        </div>
+        </nav>
+        
+        <footer class="footer">
+            <p style="font-size: 20px;">Made with ❤️ by Hack Clubers</p>
+            <br>
+            <a href="https://github.com/hackclub/rooted" target="_blank" rel="noopener">All code is Open Sourced here!</a>
+            <br>
+            <a href="https://hackclub.com" target="_blank" rel="noopener"><i>© 2025 Hack Club. 501(c)(3) nonprofit (EIN: 81-2908499)</i></a>
+        </footer>
     </div>
 {/if}

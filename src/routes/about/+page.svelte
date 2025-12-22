@@ -1,5 +1,6 @@
 <script>
     let bornhackOpen = $state(false);
+    let orgOpen = $state(false);
 </script>
 
 <style>
@@ -28,7 +29,7 @@
                 <div class="collapsible-content">
                     <div class="bornhack-info">
                         <p>
-                            <a href="https://bornhack.dk" target="_blank" rel="noopener">BornHack</a> is an annual week-long hacker camp held on the Danish island of Funen. You'll camp outdoors, build projects, attend talks,And so much more.
+                            <a href="https://bornhack.dk" target="_blank" rel="noopener">BornHack</a> is an annual week-long hacker camp held on the Danish island of Funen. You'll camp outdoors, build projects, attend talks, and so much more.
                         </p>
                         <p>
                             BornHack 2026 will likely take place in <strong>July 2026</strong> (exact dates TBD). The event runs for about a week.
@@ -52,6 +53,66 @@
             {/if}
         </div>
 
+        <div class="collapsible-section">
+            <button class="collapsible-header" onclick={() => orgOpen = !orgOpen}>
+                <span class="collapsible-title">Rooted Organisers</span>
+                <span class="collapsible-arrow" class:open={orgOpen}>▶</span>
+            </button>
+            
+            {#if orgOpen}
+                <div class="collapsible-content">
+                    <div class="bornhack-info">
+                        <p>
+                            We have a dedicated team of teens working to make Rooted happen!
+                        </p>
+                    </div>
+                    <h2 class="title">Rooted Organisers</h2>
+
+                <div class="faq-item">
+                    <h2 class="faq-question">Christian</h2>
+                    <div class="org-content">
+                        <img src="/profilepic/christian.png" alt="Christian's Profile Picture" class="org-pic">
+                        <p class="faq-answer">
+                            Christian is the Lead Organiser for Rooted. He has worked on lots of YSWS's before and is excited to bring Rooted to life.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h2 class="faq-question">Mahad</h2>
+                    <div class="org-content">
+                        <img src="/profilepic/mahad.png" alt="Mahad's Profile Picture" class="org-pic">
+                    <p class="faq-answer">
+                        Mahad is one of the Co-Organiser for Rooted. He is a amazing developer and also works for Hack Club.
+                    </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h2 class="faq-question">Freddie</h2>
+                    <div class="org-content">
+                        <img src="/profilepic/freddie.jpeg" alt="Freddie's Profile Picture" class="org-pic">
+                    <p class="faq-answer">
+                        Freddie is one of the Co-Organiser for Rooted. He loves coding and is excited to help out with Rooted
+                    </p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h2 class="faq-question">Frog</h2>
+                    <div class="org-content">
+                        <img src="/profilepic/frog.png" alt="Frog's Profile Picture" class="org-pic">
+                    <p class="faq-answer">
+                        Frog is one of the Co-Organiser for Rooted. He is a great member of the team and is always ready to help.
+                    </p>
+                    </div>
+                </div>
+
+                            
+                        </div>
+            {/if}
+        </div>
+        <br>
         <!-- General FAQs -->
         <div class="faq-item">
             <h2 class="faq-question">What is Hack Club?</h2>
@@ -81,10 +142,14 @@
         </div>
 
         <div class="faq-item">
-            <h2 class="faq-question" id="learn-more">Where can I learn more or get involved?</h2>
+            <h2 class="faq-question">Where can I learn more or get involved?</h2>
             <p class="faq-answer">
                 Join the Hack Club community on <a href="https://hackclub.com/slack" target="_blank" rel="noopener">Slack</a> 
                 to connect with other hackers heading to BornHack! 
+            <a href="https://hackclub.enterprise.slack.com/archives/C09LYU1S23Y" class="rsvp-btn" target="_blank" rel="noopener">#Rooted Slack Channel</a>
+            <br>
+            <br>
+            If you are already on slack hit the button to join!
             </p>
         </div>
     </div>
