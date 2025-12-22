@@ -69,6 +69,10 @@
             {/if}
             <a href="https://forms.hackclub.com/camprsvp" class="rsvp-btn" target="_blank" rel="noopener">RSVP</a>
             <a href="/stats" class="stats-link">View live stats →</a>
+        <div style="position: absolute; top: 30px; left: 30px; z-index: 1;">
+            <a href="https://hackclub.enterprise.slack.com/archives/C09LYU1S23Y" class="rsvp-btn" target="_blank" rel="noopener">#Rooted Slack Channel</a>
+            <a href="/about#learn-more" class="about-link">Take a look at the FAQ for info on how to join slack!</a>
+        </div>
         </div>
         <div style="position: absolute; top: 30px; right: 30px; z-index: 1;">
             <a href="/about" class="info-btn">What is this?</a>

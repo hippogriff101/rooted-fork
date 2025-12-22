@@ -81,11 +81,10 @@
         </div>
 
         <div class="faq-item">
-            <h2 class="faq-question">Where can I learn more or get involved?</h2>
+            <h2 class="faq-question" id="learn-more">Where can I learn more or get involved?</h2>
             <p class="faq-answer">
                 Join the Hack Club community on <a href="https://hackclub.com/slack" target="_blank" rel="noopener">Slack</a> 
                 to connect with other hackers heading to BornHack! 
-                <span class="wip-note">This is currently a work-in-progress.</span>
             </p>
         </div>
     </div>
