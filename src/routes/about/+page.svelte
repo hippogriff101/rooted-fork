@@ -136,7 +136,7 @@
                 <br>
                 BornHack is a safe environment, which has been run many times. 
                 See more information about their <a href="https://bornhack.dk" target="_blank" rel="noopener">previous events</a>! 
-                We'll also provide parents with full transparency about accommodations and travel. We will have trained adult STAFF present at all times during the event.
+                We'll also provide parents with full transparency about accommodations and travel. We will have trained adult staff present at all times during the event.
             </p>
         </div>
 
